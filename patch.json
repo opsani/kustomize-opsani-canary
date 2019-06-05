@@ -1,0 +1,15 @@
+[
+  {
+    "op": "replace",
+    "path": "/metadata/name",
+    "value": "opsani-canary"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/labels/standard"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/labels/standard"
+  }
+]
