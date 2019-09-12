@@ -4,7 +4,3 @@ metadata:
   name: standard
 spec:
   replicas: 1
-  strategy:
-    rollingUpdate:
-      maxSurge: 0
-      maxUnavailable: 1
