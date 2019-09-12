@@ -9,9 +9,6 @@ commonLabels:
   deployment: opsani-canary
   name: opsani-canary-pod
 
-patchesStrategicMerge:
-  - canary.yaml
-
 patchesJson6902:
   - target:
       group: extensions

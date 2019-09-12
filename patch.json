@@ -5,6 +5,11 @@
     "value": "opsani-canary"
   },
   {
+    "op": "replace",
+    "path": "/spec/replicas",
+    "value": 1
+  },
+  {
     "op": "remove",
     "path": "/metadata/labels/standard"
   },
