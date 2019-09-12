@@ -26,5 +26,9 @@
   {
     "op": "remove",
     "path": "/status"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/annotations/kubectl.kubernetes.io~1last-applied-configuration"
   }
 ]
