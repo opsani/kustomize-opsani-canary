@@ -1,34 +1,146 @@
 [
-  {
-    "op": "remove",
-    "path": "/metadata/creationTimestamp"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/generation"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/resourceVersion"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/selfLink"
-  },
-  {
-    "op": "remove",
-    "path": "/metadata/uid"
-  },
-  {
-    "op": "remove",
-    "path": "/spec/template/metadata/creationTimestamp"
+    {
+    "op": "add",
+    "value": "",
+    "path": "/status"
   },
   {
     "op": "remove",
     "path": "/status"
   },
   {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/annotations/kubectl.kubernetes.io~1last-applied-configuration"
+  },
+  {
     "op": "remove",
     "path": "/metadata/annotations/kubectl.kubernetes.io~1last-applied-configuration"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/creationTimestamp"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/creationTimestamp"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/generation"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/generation"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/resourceVersion"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/resourceVersion"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/selfLink"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/selfLink"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/uid"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/uid"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/deletionGracePeriodSeconds"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/deletionGracePeriodSeconds"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/metadata/deletionTimestamp"
+  },
+  {
+    "op": "remove",
+    "path": "/metadata/deletionTimestamp"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/creationTimestamp"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/creationTimestamp"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/generation"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/generation"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/resourceVersion"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/resourceVersion"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/selfLink"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/selfLink"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/uid"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/uid"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/deletionGracePeriodSeconds"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/deletionGracePeriodSeconds"
+  },
+  {
+    "op": "add",
+    "value": "",
+    "path": "/spec/template/metadata/deletionTimestamp"
+  },
+  {
+    "op": "remove",
+    "path": "/spec/template/metadata/deletionTimestamp"
   }
 ]
